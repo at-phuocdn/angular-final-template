@@ -16,5 +16,5 @@ templateApp.config(['$routeProvider', function ($routeProvider) {
       templateUrl: 'view/about.html',
       controller: 'AboutController'
     })
-    .otherwise({redirectTo: '/home'});
+    .otherwise({redirectTo: '/about'});
 }]);

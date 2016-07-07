@@ -1,0 +1,13 @@
+{
+    	"fullname": "Đoàn Ngọc Phước",
+    	"birthday": "22/10/1994",
+        "picture": "http://localhost:8000/image/phuocdn.jpg",
+    	"gender": "Male",
+    	"nativeland": "Thừa Thiên Huế",
+    	"job": "Intership",
+    	"team": "Team Php",
+    	"email": "lifboss1994@gmail.com",
+    	"phone": "(+84) 128 842 9720",
+        "skype": "lifboss",
+    	"git": "https://github.com/at-phuocdn"
+}

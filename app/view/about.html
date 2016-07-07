@@ -1,5 +1,44 @@
 <div ng-controller="AboutController" class="jumbotron">
-  <h1>About view</h1>
-  <code>{{template}}</code>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, aliquid, officiis! Voluptatibus velit quo dignissimos voluptates debitis nam distinctio quis nulla, nisi incidunt, dolor esse dolores ab ullam delectus, quae?</p>
-</div>
+    <div id="content">
+        <div class="container">
+            <div class="col col-md-12">
+                <hr class="featurette-divider">
+                <div class="col col-md-4">
+                    <img class="img-circle img-responsive pull-left" src=" {{ profile.picture }}" alt ="phuocdn.jpg" width="200" height="150"></img>
+                </div>
+                <h2 class="featurette-heading">My profile</h2>
+                <div class="col col-md-8" style="line-height:2.0">
+                    <label>Fullname: {{ profile.fullname }}</label>
+                    <br>
+                    <label>Gender: {{ profile.gender }}</label>
+                    <br>
+                    <label>Birthday:{{ profile.birthday}}</label>
+                    <br>
+                    <label>Phone number: {{ profile.phone }}</label>
+                    <br>
+                    <label>Address: {{ profile.nativeland}}</label>
+                    <br>
+                    <label>Job: {{ profile.job }}</label>
+                    <br>
+                    <label>Team: {{ profile.team }}</label>
+                    <br>
+                    <label>Email: {{ profile.email }}</label>
+                    <br>
+                    <label>Git:<a href="{{ profile.git }}"> {{ profile.git }}</a></label>
+                    <br>
+                    <label>Skype: {{ profile.skype }}</label>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>    
+        <div class="footer">
+            <!-- Footer -->
+            <hr>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                    </div>
+                </div>
+            </div>
+        </div>

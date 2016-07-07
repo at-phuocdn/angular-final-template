@@ -10,8 +10,11 @@ templateControllers.controller('HomeController', ['$scope', '$route',
     $scope.template = $route.current.templateUrl;
 }]);
 
-templateControllers.controller('AboutController', ['$scope', '$route',
-  function ($scope, $route) {
+templateControllers.controller('AboutController', ['$scope', '$http',
+  function ($scope, $http) {
     // Controller method for About
-    $scope.template = $route.current.templateUrl;
+    var url = 'http://localhost:8000/data/profile.json';
+    $http.get(url).success(function (response) {
+    $scope.profile = response;
+  });
 }]);
