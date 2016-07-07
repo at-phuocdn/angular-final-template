@@ -233,3 +233,4 @@ For more information on AngularJS please check out [http://angularjs.org/](http:
 - `jasmine`: http://jasmine.github.io
 - `karma`: http://karma-runner.github.io
 - `http-server`: https://github.com/nodeapps/http-server
+# angular-final-template
