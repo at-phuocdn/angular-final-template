@@ -15,14 +15,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/at-hungbcp/app-template.git"
+    "url": "git+https://github.com/at-phuocdn/angular-final-template.git"
   },
-  "author": "Hung BCP",
+  "author": "Phuoc DN",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/at-hungbcp/app-template/issues"
+    "url": "https://github.com/at-phuocdn/angular-final-template/issues"
   },
-  "homepage": "https://github.com/at-hungbcp/app-template#readme",
+  "homepage": "https://github.com/at-phuocdn/angular-final-template#readme",
   "private": true,
   "devDependencies": {
     "bower": "^1.7.7",
