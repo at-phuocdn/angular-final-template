@@ -1,7 +1,7 @@
 {
     	"fullname": "Đoàn Ngọc Phước",
     	"birthday": "22/10/1994",
-        "picture": "http://localhost:8000/image/phuocdn.jpg",
+        "picture": "image/phuocdn.jpg",
     	"gender": "Male",
     	"nativeland": "Thừa Thiên Huế",
     	"job": "Intership",
