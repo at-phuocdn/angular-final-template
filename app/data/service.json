@@ -1,22 +1,26 @@
 [
   {
+      "id": 1,
     	"name": "Web Development",
     	"price": "300",
-      "active": "false"
+      "active": "true"
   },
   {
+      "id": 2,
       "name": "Design",
       "price": "400",
-      "active": "false"
+      "active": "true"
   },
   {
+      "id": 3,
       "name": "Integration",
       "price": "250",
-      "active": "false"
+      "active": "true"
   },
   {
+      "id": 4,
       "name": "Training",
       "price": "25",
-      "active": "false"
+      "active": "true"
   }
 ]

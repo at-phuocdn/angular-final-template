@@ -1,16 +1,30 @@
-<div ng-controller="AppController" class="jumbotron">
-<form>
+<div ng-controller="AppController">
+<div class="container">
+  <h2>Service <table></table></h2>
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th class="text-center">Name</th>
+        <th class="text-center">Price</th>
+        <th class="text-center">Do it</th>
+      </tr>
+    </thead>
+      <tr ng-repeat = "service in services">
+        <td>{{service.name}}</td>
+        <td>{{service.price | currency}}</td>
+        <td><button ng-click="addService(service.id)">Add</button>
+        </td>
+      </tr>
+  </table>
+</div>
+<form>	
 	<h1>Service</h1>
 	<ul>
-		<!-- Loop through the services array, assign a click handler, and set or
-			remove the "active" css class if needed -->
-		<li ng-repeat="service in services" ng-click="toggleActive(service)" ng-class="{active:service.active}">
-			<!-- Notice the use of the currency filter, it will format the price -->
-			{{service.name}} <span>{{service.price | currency}}</span>
+		<li ng-repeat="key in list" ng-click="toggleActive(key)" ng-class="{active:key.active}">
+			{{key.name}} <span>{{key.price | currency}}</span>	
 		</li>
 	</ul>
 	<div class="total">
-		<!-- Calculate the total price of all chosen services. Format it as currency. -->
 		Total: <span>{{total() | currency}}</span>
 	</div>
 
