@@ -1,6 +1,6 @@
 <div ng-controller="AppController">
 <div class="container">
-  <h2>Service <table></table></h2>
+  <h2>Service Table<table></table></h2>
   <table class="table table-bordered">
     <thead>
       <tr>
@@ -12,13 +12,14 @@
       <tr ng-repeat = "service in services">
         <td>{{service.name}}</td>
         <td>{{service.price | currency}}</td>
-        <td><button ng-click="addService(service.id)">Add</button>
+        <td><button class ="btn btn-danger"ng-click="addService(service.id)">Add</button>
         </td>
       </tr>
   </table>
 </div>
+	<p>Please click Add only 1 time for 1 item. If you want remove any service,you can click that on Service Form , Total will change. The app have many deficiency, I will fix them next time. Thank you for your support on the train time!</p>
 <form>	
-	<h1>Service</h1>
+	<h1>Service Form</h1>
 	<ul>
 		<li ng-repeat="key in list" ng-click="toggleActive(key)" ng-class="{active:key.active}">
 			{{key.name}} <span>{{key.price | currency}}</span>	
